@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apply | SAM - For Entrepreneur Fathers</title>
+  <meta name="description" content="Apply to join SAM, the premier community for entrepreneur fathers building legacy.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-wrap">
+      <a href="index.html" class="logo" aria-label="SAM Home">
+        <span class="logo-mark">SAM</span>
+      </a>
+      
+      <nav class="nav-menu" id="navMenu">
+        <div class="nav-logo-mobile">
+          <a href="index.html">
+            <span class="logo-text">SAM</span>
+          </a>
+        </div>
+        <div class="nav-links">
+          <a href="index.html#about" class="nav-link">About Us</a>
+          <a href="index.html#membership" class="nav-link">Explore Membership</a>
+          <a href="index.html#stories" class="nav-link">Wall of Dads</a>
+          <a href="index.html#faq" class="nav-link">FAQs</a>
+        </div>
+        <div class="nav-buttons-mobile">
+          <a href="apply.html" class="btn btn-primary">APPLY</a>
+          <a href="login.html" class="btn btn-dark">LOGIN</a>
+        </div>
+      </nav>
+      
+      <div class="header-right">
+        <a href="apply.html" class="btn btn-primary">APPLY</a>
+        <a href="login.html" class="btn btn-dark">LOGIN</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+          <span class="hamburger"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Apply Hero -->
+  <section class="hero hero-short">
+    <div class="container">
+      <h1 class="hero-title">Start Your Application</h1>
+      <p class="hero-subtitle">Join a brotherhood of entrepreneur fathers who refuse to choose between building great companies and being present dads.</p>
+    </div>
+  </section>
+
+  <!-- Application Form -->
+  <section class="section section-light">
+    <div class="container">
+      <div class="form-container">
+        <div class="form-intro">
+          <h2 class="form-heading">Tell Us About Yourself</h2>
+          <p class="form-description">This application takes about 5-7 minutes. We read every single one personally. Be honest—we're looking for authenticity, not perfection.</p>
+        </div>
+        
+        <form class="application-form" id="applicationForm">
+          <!-- Personal Info -->
+          <div class="form-section">
+            <h3 class="form-section-title">Personal Information</h3>
+            
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name *</label>
+                <input type="text" id="firstName" name="firstName" required>
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name *</label>
+                <input type="text" id="lastName" name="lastName" required>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-row">
+              <div class="form-group">
+                <label for="city">City *</label>
+                <input type="text" id="city" name="city" required>
+              </div>
+              <div class="form-group">
+                <label for="linkedin">LinkedIn Profile</label>
+                <input type="url" id="linkedin" name="linkedin" placeholder="https://linkedin.com/in/...">
+              </div>
+            </div>
+          </div>
+          
+          <!-- Business Info -->
+          <div class="form-section">
+            <h3 class="form-section-title">Your Business</h3>
+            
+            <div class="form-group">
+              <label for="company">Company Name *</label>
+              <input type="text" id="company" name="company" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="role">Your Role *</label>
+              <select id="role" name="role" required>
+                <option value="">Select your role...</option>
+                <option value="founder-ceo">Founder & CEO</option>
+                <option value="co-founder">Co-Founder</option>
+                <option value="ceo">CEO (Non-Founder)</option>
+                <option value="c-suite">C-Suite Executive</option>
+                <option value="vp">VP / Director</option>
+                <option value="building">Currently Building / Pre-Launch</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="stage">Company Stage *</label>
+              <select id="stage" name="stage" required>
+                <option value="">Select stage...</option>
+                <option value="idea">Idea / Pre-Revenue</option>
+                <option value="early">Early Revenue ($0-500K)</option>
+                <option value="growth">Growth ($500K-$5M)</option>
+                <option value="scale">Scale ($5M-$20M)</option>
+                <option value="established">Established ($20M+)</option>
+                <option value="exited">Exited</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="businessDescription">What does your company do? *</label>
+              <textarea id="businessDescription" name="businessDescription" rows="3" required placeholder="Brief description of your business..."></textarea>
+            </div>
+          </div>
+          
+          <!-- Family Info -->
+          <div class="form-section">
+            <h3 class="form-section-title">Your Family</h3>
+            
+            <div class="form-group">
+              <label for="fatherStatus">Father Status *</label>
+              <select id="fatherStatus" name="fatherStatus" required>
+                <option value="">Select status...</option>
+                <option value="expecting">Expecting</option>
+                <option value="newborn">Newborn (0-1 year)</option>
+                <option value="toddler">Toddler (1-4 years)</option>
+                <option value="young">Young Kids (5-12 years)</option>
+                <option value="teen">Teenagers (13-18 years)</option>
+                <option value="adult">Adult Children (18+)</option>
+                <option value="multiple">Multiple Stages</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="numChildren">Number of Children *</label>
+              <select id="numChildren" name="numChildren" required>
+                <option value="">Select...</option>
+                <option value="expecting">Expecting First</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5+">5+</option>
+              </select>
+            </div>
+          </div>
+          
+          <!-- Why SAM -->
+          <div class="form-section">
+            <h3 class="form-section-title">Why SAM?</h3>
+            
+            <div class="form-group">
+              <label for="biggestChallenge">What's your biggest challenge balancing business and family right now? *</label>
+              <textarea id="biggestChallenge" name="biggestChallenge" rows="4" required placeholder="Be specific. What keeps you up at night?"></textarea>
+            </div>
+            
+            <div class="form-group">
+              <label for="whyJoin">Why do you want to join SAM? *</label>
+              <textarea id="whyJoin" name="whyJoin" rows="4" required placeholder="What are you hoping to get from the brotherhood?"></textarea>
+            </div>
+            
+            <div class="form-group">
+              <label for="contribute">What can you contribute to other founder-dads? *</label>
+              <textarea id="contribute" name="contribute" rows="4" required placeholder="What experiences, skills, or perspectives would you bring?"></textarea>
+            </div>
+            
+            <div class="form-group">
+              <label for="hearAbout">How did you hear about SAM?</label>
+              <select id="hearAbout" name="hearAbout">
+                <option value="">Select...</option>
+                <option value="friend">Friend / Colleague</option>
+                <option value="member">Current SAM Member</option>
+                <option value="social">Social Media</option>
+                <option value="podcast">Podcast</option>
+                <option value="search">Google Search</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+          </div>
+          
+          <!-- Commitment -->
+          <div class="form-section">
+            <h3 class="form-section-title">Commitment</h3>
+            
+            <div class="form-group checkbox-group">
+              <label class="checkbox-label">
+                <input type="checkbox" name="commitMonthly" required>
+                <span>I can commit to monthly in-person meetings in my city</span>
+              </label>
+            </div>
+            
+            <div class="form-group checkbox-group">
+              <label class="checkbox-label">
+                <input type="checkbox" name="commitVulnerable" required>
+                <span>I'm willing to be vulnerable and support other dads authentically</span>
+              </label>
+            </div>
+            
+            <div class="form-group checkbox-group">
+              <label class="checkbox-label">
+                <input type="checkbox" name="commitConfidential" required>
+                <span>I understand all conversations are confidential</span>
+              </label>
+            </div>
+          </div>
+          
+          <div class="form-submit">
+            <button type="submit" class="btn btn-primary btn-large btn-full">Submit Application</button>
+            <p class="form-note">We review applications weekly. You'll hear from us within 7 days.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom footer-simple">
+        <p>&copy; 2024 SAM. All rights reserved. Founded by DANO.</p>
+        <a href="index.html" class="footer-back">← Back to Home</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    // Form submission handler
+    document.getElementById('applicationForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      // Show success message
+      const form = this;
+      form.innerHTML = `
+        <div class="form-success">
+          <div class="success-icon">✓</div>
+          <h2>Application Received!</h2>
+          <p>Thank you for applying to SAM. We review every application personally and will be in touch within 7 days.</p>
+          <p>In the meantime, follow us on social media for updates and insights for entrepreneur fathers.</p>
+          <a href="index.html" class="btn btn-primary">Back to Home</a>
+        </div>
+      `;
+      
+      // Scroll to top of form
+      form.scrollIntoView({ behavior: 'smooth' });
+    });
+  </script>
+</body>
+</html>
+
