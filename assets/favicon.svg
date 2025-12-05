@@ -1,5 +1,8 @@
 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="16" cy="16" r="14" fill="#032528"/>
-  <text x="16" y="21" text-anchor="middle" fill="#D1BFAE" font-family="Georgia, serif" font-size="14" font-weight="600">S</text>
+  <!-- Background square -->
+  <rect x="2" y="2" width="28" height="28" fill="#032528"/>
+  <!-- Border -->
+  <rect x="2" y="2" width="28" height="28" stroke="#D1BFAE" stroke-width="2" fill="none"/>
+  <!-- SAM text -->
+  <text x="16" y="20.5" text-anchor="middle" fill="#D1BFAE" font-family="Georgia, serif" font-size="9" font-weight="700" letter-spacing="1">SAM</text>
 </svg>
-

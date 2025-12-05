@@ -165,14 +165,16 @@ p {
 
 .logo-mark {
   font-family: var(--font-display);
-  font-size: 28px;
+  font-size: 18px;
   font-weight: 700;
-  color: var(--color-white);
-  letter-spacing: 4px;
+  color: var(--color-tan);
+  letter-spacing: 3px;
   position: relative;
-  padding: 8px 16px;
-  border: 2px solid var(--color-tan);
+  padding: 10px 14px;
+  background-color: transparent;
+  border: 1.5px solid var(--color-tan);
   transition: var(--transition-fast);
+  line-height: 1;
 }
 
 .logo-mark:hover {
@@ -182,10 +184,10 @@ p {
 
 .logo-text {
   font-family: var(--font-display);
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 700;
   color: var(--color-white);
-  letter-spacing: 4px;
+  letter-spacing: 3px;
 }
 
 /* Navigation */
