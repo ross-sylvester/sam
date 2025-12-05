@@ -921,6 +921,80 @@ p {
 }
 
 /* ============================================
+   Founder Section
+   ============================================ */
+.founder-section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.founder-content {
+  text-align: center;
+}
+
+.founder-quote {
+  font-family: var(--font-display);
+  font-size: clamp(20px, 3vw, 28px);
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.5;
+  color: var(--color-dark-teal);
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.founder-quote::before {
+  content: '"';
+  font-family: var(--font-display);
+  font-size: 80px;
+  color: var(--color-tan);
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0.3;
+}
+
+.founder-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.founder-avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: var(--color-dark-teal);
+  color: var(--color-tan);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.founder-details {
+  text-align: left;
+}
+
+.founder-name {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--color-dark-teal);
+  margin-bottom: 4px;
+}
+
+.founder-title {
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: var(--color-text-muted);
+}
+
+/* ============================================
    CTA Section
    ============================================ */
 .cta-text {
