@@ -1,0 +1,12 @@
+node_modules/
+*.log
+.DS_Store
+hampton-*.png
+hampton-*.html
+hampton-analysis.json
+analyze-hampton.js
+test-sam.js
+sam-*.png
+package.json
+package-lock.json
+
