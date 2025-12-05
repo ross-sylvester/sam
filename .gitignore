@@ -6,6 +6,7 @@ hampton-*.html
 hampton-analysis.json
 analyze-hampton.js
 test-sam.js
+generate-og-image.js
 sam-*.png
 package.json
 package-lock.json
